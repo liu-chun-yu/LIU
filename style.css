@@ -1,0 +1,195 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Antique&display=swap');
+
+body{
+    font-family: "Shippori Antique", sans-serif;
+    font-size: 18px;
+    color: #121212;
+    background-color: #000000;
+}
+.innerWrap{
+    width: 1240px;
+    margin: 0 auto;
+    padding: 120px 20px 0;
+}
+header{
+    background: url(./images1/封面.jpg) no-repeat right center/cover;
+}
+.ffosefin{
+    font-family: "Shippori Antique", sans-serif;
+}
+header h1{
+    padding-top: 120px;
+}
+header .scroll{
+    margin-top: 8px;
+}
+header nav{
+    position: fixed;
+    left: 0;
+    top: 20px;
+    z-index: 100;
+    width: 100%;
+}
+header nav a{
+    text-decoration: none;
+    color: rgb(247, 245, 245);
+    display: flexbox;
+    justify-content: space-around;
+    width: 1240px;
+    margin: 0 auto;
+    padding: 10px 195px;
+    list-style: none;
+}
+header nav ul a:hover{
+    color: crimson;
+}
+/* main */
+main h2{
+    text-align: center;
+    font-size: 60px;
+    letter-spacing: 0.5rem;
+    margin-bottom: 80px;
+    color: #ffffff;
+}
+.msgSec{
+    background-color: #25e1eb;
+}
+.msgSec p{
+    text-align: center;
+    line-height: 1.75;
+    margin-bottom: 40px;
+}
+.msgSec p .illust{
+    margin-top: 40px;
+    margin-bottom: 0;
+    position: relative;
+}
+/*Date*/
+.dateSec{
+    background-color: #25e1eb;
+    padding-bottom: 120px;
+}
+.dateSec .layoutWrap{
+    display: flex;
+}
+.dateSec .layoutWrap >p{
+    flex-basis: 735px;
+}
+.dateSec .layoutWrap >div{
+    flex-basis: 465px;
+    padding-top: 100px;
+}
+.dateSec .dateDetailSec{
+    font-size: 72px;
+    margin: 0 0 170px -100px;
+    background-color: #ffffff;
+    padding: 10px 64px;
+    line-height: 1.2;
+}
+.world1{font-size: 50px; color: rgb(15, 232, 240);}
+.world2{font-size: 40px; color: cadetblue;}
+.world3{font-size: 40px;color: rgb(15, 232, 240);}
+.world4{font-size: 40px; color: cadetblue;}
+.accessSec h3{
+    color: #ffffff;
+    font-size: 55px;
+    letter-spacing: 1rem;
+    margin-bottom: 8px;
+    border-bottom: 2px  #fff;
+    
+}
+.accessSec p{
+    line-height: 2; 
+}
+.highlight {
+    font-size: 1.5em; 
+    font-weight: bold; 
+    
+}
+.highway{
+    font-weight: bold;
+}
+.map{
+    position: relative;
+    padding-bottom: 100%; /* 16:9 aspect ratio */
+    height: 0;
+    overflow: hidden;
+}
+.map iframe {
+    position: absolute;
+    top: 0;
+    left: 100;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+/* form */
+.formSec{
+    background: #25e1eb;
+    padding-bottom: 60px;
+}
+form{
+    width: 600px;
+    margin: 0 auto;
+}
+input[type="text"],
+input[type="email"],
+select,
+textarea{
+    border: 1px solid #cccccc;
+    background: #fff;
+    width: 100%;
+    margin-top: 5px;
+    padding: 4px 8px;
+}
+textarea::placeholder {
+    color: gray;
+    opacity: 1; /* 確保顏色不會被透明化 */
+    font-weight: bold;
+}
+input[type="radio"],
+input[type="checkbox"]{
+    width: 16px;
+    height: 16px;
+    vertical-align: baseline;
+    margin-right: 4px;
+}
+.attendRadio{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.attendRadio label{
+    margin: 0 20px;
+    font-size: 22px;
+}
+.allergyCheck label{
+    margin-right: 24px;
+} 
+
+select{
+    background: #fff url(./images/arrow.png) no repeat 98% 50%/17px 10px;
+}
+textarea{
+    height: 148px;
+    margin-bottom: 30px;
+}
+form >p{
+    line-height: 1.4;
+    margin-bottom: 20px;
+}
+.submitBtn{
+    text-align: center;
+}
+input[type="submit"]{
+    background: #25e1eb;
+    color: #000000;
+    padding: 18px 80px;
+}
+footer{
+    background: #000000;
+    color: #25e1eb;
+    padding: 14px 10px 20px;
+    text-align: center;
+}
