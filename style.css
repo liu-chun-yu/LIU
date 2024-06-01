@@ -14,7 +14,7 @@ body{
     padding: 120px 20px 0;
 }
 header{
-    background: url(./images1/封面.jpg) no-repeat right center/cover;
+    background: url(封面.jpg) no-repeat right center/cover;
 }
 .ffosefin{
     font-family: "Shippori Antique", sans-serif;
